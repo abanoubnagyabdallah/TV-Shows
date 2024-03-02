@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV</title>
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section>
+      <main>
+        <nav class="shadow-lg fixed-top">
+          <div
+            class="container d-flex justify-content-between align-items-center"
+          >
+            <h2 class="text-light">TV Show</h2>
+            <ul>
+              <li><a href="" class="text-danger fs-5">shows</a></li>
+              <li><a href="" class="text-light fs-5">people</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <header>
+          <div class="top">
+            <div
+              class="container d-flex justify-content-between align-items-center"
+            >
+              <h1 class="text-light">TV Shows</h1>
+              <div class="">
+                <input
+                  type="search"
+                  id="search-input"
+                  placeholder="search..."
+                />
+                <input type="submit" value="search" id="search-button" />
+              </div>
+            </div>
+          </div>
+
+          <div class="box-cards">
+            <div class="container"></div>
+          </div>
+        </header>
+      </main>
+      <!-- offcanvas -->
+
+      <aside class="single-show offcanvas offcanvas-end" id="offcanvasRight">
+        <div class="aside-header">
+          <button type="button" class="btn-close color-danger"></button>
+        </div>
+        <div class="show-content"></div>
+      </aside>
+
+    </section>
+    
+    <script src="js/vendors/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
